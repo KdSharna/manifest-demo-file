@@ -1,12 +1,12 @@
 apiVersion: v1
 kind: Pod
 metadata: 
-  name: todo_ui_pod
+  name: todo-ui-pod
   labels: 
     app.kubernetes.io/name: todo-ui
 spec:
   containers:
-  - name: todo_ui_container
+  - name: todo-ui-container
     image: akscon1.azurecr.io/todo_ui_app:v1
     ports:
       - containerPort: 80
