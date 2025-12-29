@@ -7,6 +7,6 @@ metadata:
 spec:
   containers:
   - name: todo-ui-container
-    image: akscon1.azurecr.io/todo_ui_app:v1
+    image: akscon1.azurecr.io/todo-ui:v2
     ports:
       - containerPort: 80
